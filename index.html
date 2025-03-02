@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portifolio</title>
+		<link rel="stylesheet" href="./assets/css/index.css">
+		<link rel="stylesheet" href="./assets/css/responsive.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+
+	<body>
+		<header class="header">
+			<a href="#" class="logo">Sarah</a>
+			
+			<nav class="navbar" id="sidemenu">
+				<a href="#home" class="active">Home</a>
+				<a href="#projetos">Projetos</a>
+				<a href="#skills">Skills</a>
+				<a href="#education">Educação</a>
+				<a href="#contact">Contato</a>
+
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+			</nav>
+
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</header>
+
+		<section class="home" id="home">
+			<div class="home-img">
+				<img src="./assets/img/sarah-img.jpeg" alt="">
+			</div>
+			<div class="home-content">
+				<h1>Oi, Me chamo <span>Sarah</span></h1>
+				<h3 class="typing-text">Sou uma <span></span></h3>
+				<p>Estou sempre em busca de aprimorar minhas habilidades e aprender novas tecnologias para me tornar um profissional cada vez mais capacitado na área de desenvolvimento. Estou aberta a oportunidades e desafios que me permitam crescer profissionalmente e contribuir com soluções inovadoras.</p>
+				
+				<div class="social-icon">
+					<a href="https://www.linkedin.com/in/sarah-taborda-018516210/"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/SarahTaborda"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.instagram.com/sarah.taborda/"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+
+				<a href="#contact" class="btn">Contate-me</a>
+			</div>
+		</section>
+
+		<!--PARTE DE PROJETOS-->
+		<div id="projetos">
+			<div class="container-projetos">
+				<h1 class="heading">Projetos</h1>
+				<div class="work-list">
+					<div class="work">
+						<img src="./assets/img/livros.jpg" alt="">
+						<div class="layer">
+							<h3>Livraria Folklore</h3>
+							<p>Um site iniciante (e incompleto) de uma livraria de livros de fantasia</p>
+							<a href="#"><i class="fa-solid fa-link"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="./assets/img/livros.jpg" alt="">
+						<div class="layer">
+							<h3>Livraria Folklore</h3>
+							<p>Um site iniciante (e incompleto) de uma livraria de livros de fantasia</p>
+							<a href="#"><i class="fa-solid fa-link"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="./assets/img/livros.jpg" alt="">
+						<div class="layer">
+							<h3>Livraria Folklore</h3>
+							<p>Um site iniciante (e incompleto) de uma livraria de livros de fantasia</p>
+							<a href="#"><i class="fa-solid fa-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!--<a href="#" class="btn-work">Veja mais</a>-->
+			</div>
+		</div>
+
+		<!--PARTE DE SKILLS-->
+		<section class="skills" id="skills">
+			<h2 class="heading">Skills</h2>
+				<div class="container">
+					<div class="row" id="'skillsContainer">
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/python-logo.png" alt="" width="52%" height="52%">
+								<span>Python</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/html-logo.png" alt="" width="52%" height="52%">
+								<span>HTML</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/css-logo.svg" alt="" width="45%" height="45%">
+								<span>CSS</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/c-logo.png" alt="" width="55%" height="55%">
+								<span>C</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/javascript-logo.png" alt="" width="52%" height="52%">
+								<span>Java Script</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/excel-logo.png" alt="" width="52%" height="52%">
+								<span>Excel</span>
+							</div>					
+						</div>
+						<div class="bar">
+							<div class="info">
+								<img src="./assets/img/word-logo.png" alt="" width="52%" height="52%">
+								<span>Word</span>
+							</div>					
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<div class="contact" id="contact">
+			<div class="container-contact">
+				<div class="row-contact">
+					<div class="contact-left">
+						<h1 class="heading">Contate-me</h1>
+					</div>
+						
+					<div class="contact-right">
+						<form action="https://formsubmit.co/sarahtaborda229@gmail.com" method="POST">
+							<input type="text" name="name"  placeholder="Nome" required>
+							<input type="email" name="Email"placeholder="Email" required>
+
+							<textarea name="Message" rows="6" placeholder="Sua menssagem"></textarea>
+
+							<div class="form-buttons">
+                        		<button type="submit" class="btn btn2">Enviar</button>
+                       			 <a href="./assets/pdf/Currículo (1).pdf" download class="btn btn2">Download CV</a>
+                    		</div>
+
+							<input type="hidden" name="_subject" value="Novo Contato">
+							<input type="text" name="_honey" style="display:none;">
+							<input type="hidden" name="_captcha" value="false">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright © Sarah. Made by Sarah</p>
+		</div>
+
+		<script src="./assets/js/script-menu.js"></script>
+		<script src="./assets/js/script-contact.js"></script>
+	</body>
+
+</html>

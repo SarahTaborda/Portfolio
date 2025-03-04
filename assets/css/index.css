@@ -2,6 +2,7 @@
 @import './partials/home.css';
 @import './partials/project.css';
 @import './partials/contact.css';
+@import './partials/education.css';
 
 * {
 	margin: 0;
